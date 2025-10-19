@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Glide</title>
+</head>
+
+<style>
+    @media (max-width: 1024px) {
+        .container-app {
+            grid-template-columns: repeat(2, 300px);
+        }
+
+
+
+        .comment-container {
+            display: grid;
+            grid-template-columns: repeat(2, 350px);
+            justify-content: center;
+            margin: 0 auto;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .container-app {
+            grid-template-columns: repeat(1, 300px);
+            gap: 50px;
+        }
+
+        .tools-block {
+            display: block;
+        }
+
+        .tools-active {
+            margin-top: 30px;
+        }
+
+        .comment-container {
+            display: grid;
+            grid-template-columns: repeat(1, 400px);
+        }
+
+        .market-block {
+            display: grid;
+            grid-template-columns: repeat(2, 150px);
+            justify-content: center;
+        }
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-container">
+                <nav role="navigation" aria-label="Main navigation">
+                    <a href="#" class="logo"><img src="img/Frame (1).png" alt=""></a>
+                    <ul>
+                        <li><a href="#">Why Glide <img src="img/strange.svg" alt=""></a></li>
+                        <li class="active"><a href="#">Templates</a></li>
+                        <li><a href="#">Products <img src="img/strange.svg" alt=""></a></li>
+                        <li><a href="#">Resources <img src="img/strange.svg" alt=""></a></li>
+                        <li class="active"><a href="#">Pricing</a></li>
+                    </ul>
+                </nav>
+
+                <div class="auth">
+                    <a href="#" aria-label="Account"><img src="img/Frame.svg" alt="Glide account icon"></a>
+                    <div class="btn">
+                        <button type="button">Log In</button>
+                        <button type="button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="header-text">
+                    <h1>Turn your data into software. <br> No coding or design skills needed.</h1>
+                    <p>Glide lets anyone in your company create powerful custom tools to move <br> your business
+                        forward.
+                        Stop waiting on IT and create your app today.
+                    </p>
+                </div>
+
+                <div class="container-tv">
+                    <div class="tv-btn">
+                        <button>Get started for free</button>
+                        <p>No credit card required</p>
+                    </div>
+
+                    <div class="tv-active">
+                        <div class="tc-img">
+                            <img style="width: 44px; height: 44px;" src="./img/IMAGE (8).png" alt="Play demo">
+                        </div>
+                        <div class="tv-text">
+                            <h3>Watch Demo</h3>
+                            <h4><span>60 seconds</span></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-bg_img">
+                <div class="container-bg_second">
+                </div>
+                <div class="container-bg">
+                    <img src="img/IMAGE (9).png" alt="App preview illustration">
+                </div>
+
+            </div>
+        </header>
+
+
+        <main>
+            <section class="one">
+                <div class="custom-descr">
+                    <div class="custom-text">
+                        <h2>Create custom apps for any <br> workflow with zero coding</h2>
+                        <p>Transforming your spreadsheet data into powerful Glide apps is <br> remarkably easy. Save
+                            time with
+                            hundreds of pre-built templates and <br> quickly customize them to match your needs.
+                        </p>
+                    </div>
+
+                    <div class="custom-link">
+                        <h3><a href="#">View template store</a></h3>
+                    </div>
+                </div>
+
+                <div class="custom-container">
+                    <div class="custom-block">
+                        <div class="custom-icon" style="background-color: #43A4AA;">
+                            <img src="./img/Frame (9).png" alt="">
+                        </div>
+                        <div class="custom-title">
+                            <h3>Delivery Planner</h3>
+                        </div>
+                    </div>
+                    <div class="custom-block">
+                        <div class="custom-icon" style="background-color: #EF8C0B;">
+                            <img src="./img/Frame (12).png" alt="">
+                        </div>
+                        <div class="custom-title">
+                            <h3>Customer Portal</h3>
+                        </div>
+                    </div>
+                    <div class="custom-block">
+                        <div class="custom-icon" style="background-color: #DB3553;">
+                            <img src="./img/Frame (11).png" alt="">
+                        </div>
+                        <div class="custom-title">
+                            <h3>Inventory Tracker</h3>
+                        </div>
+                    </div>
+                    <div class="custom-block">
+                        <div class="custom-icon" style="background-color: #7BA5C6;">
+                            <img src="./img/Frame (9).png" alt="">
+                        </div>
+                        <div class="custom-title">
+                            <h3>Applicant Manager</h3>
+                        </div>
+                    </div>
+                    <div class="custom-block">
+                        <div class="custom-icon" style="background-color: #2E6C9D;">
+                            <img src="./img/Frame (10).png" alt="">
+                        </div>
+                        <div class="custom-title">
+                            <h3>Business Report</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="two">
+                <div class="template-img">
+                    <img src="./img/IMAGE (11).png" alt="">
+                </div>
+
+                <div class="template-container">
+                    <div class="template-icon">
+                        <a href="#"><img src="./img/www1.svg" alt=""></a>
+                        <a href="#"><img src="./img/www2.svg" alt=""></a>
+                        <a href="#"><img src="./img/www3.png" alt=""></a>
+                        <h4><a href="#">Runs on mobile, tablet and desktop</a></h4>
+                    </div>
+
+                    <div class="template-btn">
+                        <button type="button">Start for free</button>
+                        <button type="button">Preview Template</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="three">
+                <div class="container-tools">
+                    <div class="tools-text">
+                        <h2>Glide lets you build powerful custom <br> tools with no code, in minutes.</h2>
+                    </div>
+
+                    <div class="tools-block">
+                        <div class="tools-active">
+                            <a href="#">Turn your</a>
+                            <button>CSV <img src="./img/svv.svg" alt=""></button>
+                        </div>
+
+                        <div class="tools-active">
+                            <a href="#">Into A</a>
+                            <button type="button">Customer Portal <img src="./img/svv.svg" alt="arrow icon"></button>
+                        </div>
+                    </div>
+
+                    <div class="container-app">
+                        <div class="app-block">
+                            <div class="app-text">
+                                <h4>It all starts with your data</h4>
+                                <p>Glide instantly <br> creates the first <br> version of your app</p>
+                            </div>
+                        </div>
+                        <div class="app-block">
+                            <div class="app-text">
+                                <h4>Tune the design</h4>
+                                <p>Drag-and-drop <br> components make <br> your data interactive. <br> They’re designed
+                                    <br>
+                                    to look great on <br> every screen.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="app-block">
+                            <div class="app-text">
+                                <h4>Power up without code</h4>
+                                <p>Glide instantly <br> creates the first <br> version of your app <br> They’re designed
+                                    to look <br>
+                                    great on every screen.</p>
+                            </div>
+                        </div>
+                        <div class="app-block">
+                            <div class="app-text">
+                                <h4>Actions put data into motion</h4>
+                                <p>Bring your data to <br> life with computed <br> columns.</p>
+                            </div>
+                        </div>
+                        <div class="app-block">
+                            <div class="app-text">
+                                <h4>Share securely with your users</h4>
+                                <p>Combine simple <br> actions into workflows <br> that automate your <br> business.</p>
+                            </div>
+                        </div>
+                        <div class="app-block">
+                            <div class="app-text">
+                                <h4>Everything stays in sync</h4>
+                                <p>Publish instantly as a <br> public app or private <br> to your company.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div class="main">
+        <section class="four">
+            <div class="data">
+                <div class="data-container">
+                    <div class="data-title">
+                        <h2>The surprising power of Glide</h2>
+                    </div>
+
+                    <div class="data-btn">
+                        <button><a href="#">Advanced Computed Columns</a></button>
+                        <button><a href="#">Custom Action Sequences</a></button>
+                        <button><a href="#">Glide REST API</a></button>
+                    </div>
+
+                    <div class="data-text">
+                        <p><b>Pick from predefined functions, or create your own.</b></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="wrapper">
+        <div class="main">
+            <section class="five">
+                <div class="client-title">
+                    <h2>Meet the businesses leveling <br> up with Glide</h2>
+                </div>
+
+                <div class="client-container">
+                    <div class="client-block">
+                        <div class="client-logo">
+                            <a href="#"><img src="img/rpga.svg" alt=""></a>
+                        </div>
+
+                        <div class="client-text">
+                            <h2>Glide replaced 40,000 <br> tickets with a single app <br> for Ryder Cup</h1>
+                                <a href="#">Read more</a>
+                        </div>
+                    </div>
+
+                    <div class="client-bg">
+                        <div class="client-img">
+                            <img src="img/IMAGE (12).png" alt="">
+                        </div>
+                        <div class="client-pic">
+                            <img src="img/IMAGE (13).png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="six">
+                <div class="comment">
+                    <div class="comment-title">
+                        <h2>Our customers love us</h2>
+                    </div>
+                    <div class="comment-container">
+                        <div class="comment-block" style="background-color: #E9FCFF;">
+                            <div class="comment-text">
+                                <p>Every time we have a complex Google <br> Sheets solution or a quick problem we <br>
+                                    need to solve, now our brains go to,</p>
+                            </div>
+                            <div class="comment-active">
+                                <div class="commet-img">
+                                    <img src="img/IMAGE (14).png" alt="">
+                                </div>
+                                <div class="coomet-inform">
+                                    <h4>Liz Elliot</h4>
+                                    <a href="#">PGA of America</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-block" style="background-color: #EFFFED;">
+                            <div class="comment-text">
+                                <p>Every time we have a complex Google <br> Sheets solution or a quick problem we <br>
+                                    need to solve, now our brains go to,</p>
+                            </div>
+                            <div class="comment-active">
+                                <div class="commet-img">
+                                    <img src="img/IMAGE (15).png" alt="">
+                                </div>
+                                <div class="coomet-inform">
+                                    <h4>Sarah Boltwala-Mesina</h4>
+                                    <a href="#">Food2Soil</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-block" style="background-color: #EFEEFF;">
+                            <div class="comment-text">
+                                <p>Every time we have a complex Google <br> Sheets solution or a quick problem we <br>
+                                    need to solve, now our brains go to,</p>
+                            </div>
+                            <div class="comment-active">
+                                <div class="commet-img">
+                                    <img src="img/IMAGE (16).png" alt="">
+                                </div>
+                                <div class="coomet-inform">
+                                    <h4>Marc Walford</h4>
+                                    <a href="#">ITV</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-btn">
+                        <button>Read all customer stories</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="seven">
+                <div class="market">
+                    <div class="market-title">
+                        <h2>"Best app builder on the market, by far!”</h2>
+                        <p>Glide is rated 4.7/5 stars on 300+ G2 reviews.</p>
+                        <a href="#">See what they're saying</a>
+                    </div>
+
+                    <div class="market-container">
+                        <div class="market-block">
+                            <div class="market-active">
+                                <h3>No-Code <br> Development <br> Platforms</h3>
+                            </div>
+
+                            <div class="market-active">
+                                <h3>No-Code <br> Development <br> Platforms</h3>
+                            </div>
+
+                            <div class="market-active">
+                                <h3>No-Code <br> Development <br> Platforms</h3>
+                            </div>
+
+                            <div class="market-active">
+                                <h3>Rapid Application <br> Development</h3>
+                            </div>
+
+                            <div class="market-active">
+                                <h3>No-Code <br> Development <br> Platforms</h3>
+                            </div>
+
+                            <div class="market-active">
+                                <h3>No-Code <br> Development <br> Platforms</h3>
+                            </div>
+                        </div>
+
+                        <div class="market-text_block">
+                            <div class="market-text">
+                                <h4>Best app builder on the market, by far!</h4>
+                                <p>I can make an advanced, high-quality, gorgeous app in <br> about 30 minutes. I am
+                                    fluent
+                                    in Google Sheets, and this <br> instantly connects with Sheets allowing a much
+                                    better <br>
+                                    experience than Google Sheets alone.
+                                </p>
+                            </div>
+
+                            <div class="market-text">
+                                <h4>Leading the no-code revolution!</h4>
+                                <p>Where do I start? Ease of use, design quality, inuitiveness, <br> community,
+                                    templates,
+                                    experts - it's all just TOO MUCH!
+                                </p>
+                            </div>
+
+                            <div class="market-text">
+                                <h4>The easiest and quickest no-code tool to build</h4>
+                                <p>Unlike many other no-code tools, Glide takes care of <br> the design for you. You
+                                    don't
+                                    need to worry about <br> pixels and positioning components on the screen.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="eight">
+            <div class="glide">
+                <div class="glide-text">
+                    <h2>Unleash your Genius</h2>
+                    <p>Your data's glamorous new life begins today.</p>
+                    <div class="glide-btn">
+                        <button>Get started with Glide</button>
+                    </div>
+                </div>
+            </div>
+            <div class="glide-container">
+                <div class="glide-block">
+                    <div class="glide-descr">
+                        <h3>Pricing</h3>
+                        <p>Find a plan that suits your business needs.</p>
+                    </div>
+
+                    <div class="glide-img">
+                        <img src="./img/IMAGE (19).png" alt="">
+                    </div>
+                </div>
+
+                <div class="glide-block">
+                    <div class="glide-descr">
+                        <h3>Templates</h3>
+                        <p>Browse from a 100+ pre-built templates.</p>
+                    </div>
+
+                    <div class="glide-img">
+                        <img src="./img/IMAGE (18).png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="text-list">
+                <div class="footer-list">
+                    <div class="footer-text">
+                        <p>Glide's mission is to put the power, beauty, and magic of software development into the hands
+                            of
+                            a billion new creators.
+                        </p>
+                    </div>
+                    <div class="footer-text_list">
+                        <ul>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Glide Apps</a></li>
+                            <li><a href="#">Glide Pages</a></li>
+                            <li><a href="#">Data Editor</a></li>
+                            <li><a href="#">Templates</a></li>
+                            <li><a href="#">Pricing</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Series A</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Research</a></li>
+                            <li><a href="#">Brand Assets</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="#">Learn More</a></li>
+                            <li><a href="#">Customer Stories</a></li>
+                            <li><a href="#">Glide University</a></li>
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Security</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Glide University</a></li>
+                            <li><a href="#">Product Updates</a></li>
+                            <li><a href="#">Hire an Expert</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
